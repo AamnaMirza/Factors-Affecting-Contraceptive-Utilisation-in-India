@@ -20,5 +20,6 @@ The analysis addresses the challenge of "High Dimensionality" (130+ features vs.
     * **Random Forest Regressor:** Used to capture non-linear relationships and complex interactions between variables.
 
 ## Key Findings
-* **Primary Predictor:** The analysis consistently identifies **Under-Five Mortality Rate** as a top predictor, suggesting a strong link between child survival confidence and family planning.
-* **Secondary Factors:** Female literacy, access to media, and economic indicators (like bank account ownership) show significant importance.
+* **Primary Predictor:** The analysis identified **"Unmet Need for Spacing"** as the single most significant predictor of contraceptive utilization. This suggests that the gap between the *desire* to delay pregnancy and the *access* to methods is the strongest determinant of usage rates across Indian states.
+* **Secondary Factors:** Current Use of Family Planning Methods (Currently Married Women Age 15-49  years) - Any method (%) is the second strongest predictor, again suggesting the need to adapt contraceptives
+* **Model Performance:** The Lasso Regression model achieved an R² score of ~0.93, successfully isolating these key variables from over 130+ potential indicators.
